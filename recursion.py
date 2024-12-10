@@ -11,7 +11,7 @@ def recur_sum(n):
         return n+recur_sum(n-1)
 num=int(input("enter the number"))
 if(num<0):
-    print("positive numbwe")
+    print("positive number")
 else:
     print("the sum is",recur_sum(num))
 
